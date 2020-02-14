@@ -6,5 +6,11 @@
 </div>
 <% end %>
 
+<%= cl_image_tag("f0o9pk0autsesmrwg8kc",
+      width: 400, height: 300, crop: :fill) %>
+
+<%= cl_image_tag("ndgmh5x6umxcu9sejyhv",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
+
 <%= link_to "+ Add a new Cocktail", new_cocktail_path  %>
 </div>
